@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.1.dtd" > -->
+<suite name = "Test Suite" verbose = "2" parallel = "methods" thread-count="2"> 
+<listeners>
+	<Listener class-name = "testNGLearning.ListenersExample"> </Listener>
+</listeners>
+	<test name = "TestCase">
+	
+	
+	<parameter name = "Name" value = "Duck">
+	</parameter>	
+	
+	
+	
+	
+	
+	
+<!-- <groups>
+
+	<run>
+	
+	<include name = "Moto"></include>
+	<include name = "Vivo"></include>
+	<exclude name = "Apple"></exclude>
+	
+	</run>
+
+</groups> -->
+
+		<classes>
+					
+			<class name = "testNGLearning.ParameterizationExample"></class>
+
+		</classes>
+
+	</test>
+
+</suite>
+
+<!-- <class name= "testNGLearning.DependanciesManagement"> 
+			</class>
+			<class name = "testNGLearning.DriveACar">
+			</class>
+			<class name = "testNGLearning.SampleTestCase">
+			</class>
+			<class name = "testNGLearning.SuiteExample">
+			</class> -->
